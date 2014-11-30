@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JsonTest</string>
+    <string name="action_settings">设置</string>
+    <string name="idSearch">输入工号</string>
+    <string name="search">搜索</string>
+
+</resources>
