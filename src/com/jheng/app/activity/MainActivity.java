@@ -89,4 +89,4 @@ public class MainActivity extends ActionBarActivity
 		super.onDestroy();
 		android.os.Debug.stopMethodTracing();
 	}
-
+}
