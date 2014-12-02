@@ -81,11 +81,12 @@ public class MainActivity extends ActionBarActivity
 				Log.e("Test", throwable.getMessage());
 			}
 		});
-		/*
-		 * final ; Gson gson = new Gson(); emp = gson.fromJson(json,
-		 * Employee.class);
-		 */
-		// ("http://192.168.1.2/m/employee/"+id);
-
 	}
-}
+	
+	@Override
+	public void onDestroy()
+	{
+		super.onDestroy();
+		android.os.Debug.stopMethodTracing();
+	}
+
